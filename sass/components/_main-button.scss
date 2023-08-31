@@ -1,0 +1,17 @@
+.main__btn {
+    padding: 15px 36px;
+    border-radius: 30px;
+    border: none;
+    background-color: #4985FF;
+    box-shadow: 0px 0px 10px 0px rgba(111, 111, 111, 0.25);
+    cursor: pointer;
+
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.main__btn:hover, .main__btn:focus {
+    background-color: #254689;
+}
