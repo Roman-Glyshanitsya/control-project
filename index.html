@@ -17,26 +17,28 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/main.min.css">
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <!-- header -->
     <header class="header">
       <div class="container">
-      <nav>
-        <ul class="nav__list">
-          <li class="nav__item">
-            <a href="index.html" class="nav_link">Головна</a>
-          </li>
-          <li class="nav__item">
-            <a href="#" class="nav__link">Наші проекти</a>
-          </li>
-          <li class="nav__item"><a href="#" class="nav__link">Послуги</a></li>
-          <li class="nav__item"><a href="#" class="nav__link">Новини</a></li>
-          <li class="nav__item"><a href="#" class="nav__link">Контакти</a></li>
-        </ul>
-      </nav>
-    </div>
+        <nav>
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="index.html" class="nav_link">Головна</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Наші проекти</a>
+            </li>
+            <li class="nav__item"><a href="#" class="nav__link">Послуги</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Новини</a></li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Контакти</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main>
       <!-- hero -->
@@ -52,38 +54,69 @@
       <!--about us-->
 
       <section class="about-us">
-        <h2 class="about-us__title">
-          Ми створюємо мобільні додатки для великих корпорацій
-        </h2>
-        <p class="about-us__paragraph">
-          Lorem Ipsum - це текст-"риба", що часто використовується в пресі та
-          веб-дизайні. Lorem Ipsum є стандартною "рибою" для текстів на латиниці
-          з початку XVI ст.
-        </p>
-        <ul class="about-us__list">
-          <li class="about-us__item">
-            <svg>
-              <use href="./icons/symbol-defs.svg#icon-about-us"></use>
-            </svg>
-            <h3 class="about-us__subtitle">Створення сайтів</h3>
-            <p class="about-us__subtext">Lorem Ipsum - це текст-"риба", часто використовує у пресі та веб-дизайні.</p>
-          </li>
-          <li class="about-us__item">
-            <svg>
-              <use href="./icons/symbol-defs.svg#icon-about-us"></use>
-            </svg>
-            <h3 class="about-us__subtitle">Створення сайтів</h3>
-            <p class="about-us__subtext">Lorem Ipsum - це текст-"риба", часто використовує у пресі та веб-дизайні.</p>
-          </li>
-          <li class="about-us__item">
-            <svg>
-              <use href="./icons/symbol-defs.svg#icon-about-us"></use>
-            </svg>
-            <h3 class="about-us__subtitle">Створення сайтів</h3>
-            <p class="about-us__subtext">Lorem Ipsum - це текст-"риба", часто використовує у пресі та веб-дизайні.</p>
-          </li>
-        </ul>
-        <button type="button" class="about-us__btn">Всі послуги</button>
+        <div class="container">
+          <h2 class="about-us__title">
+            Ми створюємо мобільні додатки для великих корпорацій
+          </h2>
+          <p class="about-us__paragraph">
+            Lorem Ipsum - це текст-"риба", що часто використовується в пресі та
+            веб-дизайні. Lorem Ipsum є стандартною "рибою" для текстів на
+            латиниці з початку XVI ст.
+          </p>
+          <ul class="about-us__list">
+            <li class="about-us__item">
+              <div class="about-us__circle-out">
+                <div class="about-us__circle-in">
+                  <svg class="about-us__icon">
+                    <use href="./icons/symbol-defs.svg#icon-about-us"></use>
+                  </svg>
+                </div>
+              </div>
+              <div>
+                <h3 class="about-us__subtitle">Створення сайтів</h3>
+                <p class="about-us__subtext">
+                  Lorem Ipsum - це текст-"риба", часто використовує у пресі та
+                  веб-дизайні.
+                </p>
+              </div>
+            </li>
+            <li class="about-us__item">
+              <div class="about-us__circle-out">
+                <div class="about-us__circle-in">
+                  <svg class="about-us__icon">
+                    <use href="./icons/symbol-defs.svg#icon-about-us"></use>
+                  </svg>
+                </div>
+              </div>
+              <div>
+                <h3 class="about-us__subtitle">Створення сайтів</h3>
+                <p class="about-us__subtext">
+                  Lorem Ipsum - це текст-"риба", часто використовує у пресі та
+                  веб-дизайні.
+                </p>
+              </div>
+            </li>
+            <li class="about-us__item">
+              <div class="about-us__circle-out">
+                <div class="about-us__circle-in">
+                  <svg class="about-us__icon">
+                    <use href="./icons/symbol-defs.svg#icon-about-us"></use>
+                  </svg>
+                </div>
+              </div>
+              <div>
+                <h3 class="about-us__subtitle">Створення сайтів</h3>
+                <p class="about-us__subtext">
+                  Lorem Ipsum - це текст-"риба", часто використовує у пресі та
+                  веб-дизайні.
+                </p>
+              </div>
+            </li>
+          </ul>
+          <button type="button" class="main__btn about-us__button">
+            Всі послуги
+          </button>
+        </div>
       </section>
 
       <!-- Standarts  -->
@@ -191,13 +224,13 @@
         </p>
         <ul class="projects__list">
           <li class="projects__item">
-            <img src="./img/projects.jpg" alt="" class="projects__img">
+            <img src="./img/projects.jpg" alt="" class="projects__img" />
           </li>
           <li class="projects__item">
-            <img src="./img/projects.jpg" alt="" class="projects__img">
+            <img src="./img/projects.jpg" alt="" class="projects__img" />
           </li>
           <li class="projects__item">
-            <img src="./img/projects.jpg" alt="" class="projects__img">
+            <img src="./img/projects.jpg" alt="" class="projects__img" />
           </li>
         </ul>
         <button class="projects__btn" type="button">Всі проекти</button>
@@ -233,156 +266,122 @@
 
     <!--footer-->
     <footer class="footer">
-    <ul class="footer__list">
-      <li class="footer__item">
-        <h3 class="footer__title">Контактна информацiя</h3>
-        <ul class="footer-link__list">
-          <li class="footer-link__item">
-            <svg class="footer-contact__icon">
-              <use href="./icons/symbol-defs.svg#icon-envelope"></use>
-            </svg>
-            <a href="mailto:test@test.ua">
-              test@test.ua
-            </a>
-          </li>
-          <li class="footer-link__item">
-            <svg class="footer-contact__icon">
-              <use href="./icons/symbol-defs.svg#icon-call"></use>
-            </svg>
-            <a href="tel:+380965556699">
-              +3 8096 555 66 99
-            </a>
-          </li>
-          <li class="footer-link__item">
-            <svg class="footer-contact__icon">
-              <use href="./icons/symbol-defs.svg#icon-location"></use>
-            </svg>
-            <a href="#">
-              Тернопіль вул С. Бандери
-            </a>
-          </li>
-        </ul>
-      </li>
+      <ul class="footer__list">
+        <li class="footer__item">
+          <h3 class="footer__title">Контактна информацiя</h3>
+          <ul class="footer-link__list">
+            <li class="footer-link__item">
+              <svg class="footer-contact__icon">
+                <use href="./icons/symbol-defs.svg#icon-envelope"></use>
+              </svg>
+              <a href="mailto:test@test.ua"> test@test.ua </a>
+            </li>
+            <li class="footer-link__item">
+              <svg class="footer-contact__icon">
+                <use href="./icons/symbol-defs.svg#icon-call"></use>
+              </svg>
+              <a href="tel:+380965556699"> +3 8096 555 66 99 </a>
+            </li>
+            <li class="footer-link__item">
+              <svg class="footer-contact__icon">
+                <use href="./icons/symbol-defs.svg#icon-location"></use>
+              </svg>
+              <a href="#"> Тернопіль вул С. Бандери </a>
+            </li>
+          </ul>
+        </li>
 
-      <li class="footer__item">
-        <h3 class="footer__title">Основні посилання</h3>
-        <ul class="footer-link__list">
-          <li class="footer-link__item">
-            <svg class="footer-contact__icon">
-            <use href="./icons/symbol-defs.svg#icon-arrow"></use>
-          </svg>
-            <a href="#">
-              Головна
-            </a>
-          </li>
-          <li class="footer-link__item">
-            <svg class="footer-contact__icon">
-              <use href="./icons/symbol-defs.svg#icon-arrow"></use>
-            </svg>
-            <a href="#">
-              Наші проекти
-            </a>
-          </li>
-          <li class="footer-link__item">
-            <svg class="footer-link__icon">
-              <use href="./icons/symbol-defs.svg#icon-arrow"></use>
-            </svg>
-            <a href="#">
-              Наші послуги
-            </a>
-          </li>
-          <li class="footer-link__item">
-            <svg class="footer-link__icon">
-              <use href="./icons/symbol-defs.svg#icon-arrow"></use>
-            </svg>
-            <a href="#">
-              Контакти
-            </a>
-          </li>
-        </ul>
-      </li>
+        <li class="footer__item">
+          <h3 class="footer__title">Основні посилання</h3>
+          <ul class="footer-link__list">
+            <li class="footer-link__item">
+              <svg class="footer-contact__icon">
+                <use href="./icons/symbol-defs.svg#icon-arrow"></use>
+              </svg>
+              <a href="#"> Головна </a>
+            </li>
+            <li class="footer-link__item">
+              <svg class="footer-contact__icon">
+                <use href="./icons/symbol-defs.svg#icon-arrow"></use>
+              </svg>
+              <a href="#"> Наші проекти </a>
+            </li>
+            <li class="footer-link__item">
+              <svg class="footer-link__icon">
+                <use href="./icons/symbol-defs.svg#icon-arrow"></use>
+              </svg>
+              <a href="#"> Наші послуги </a>
+            </li>
+            <li class="footer-link__item">
+              <svg class="footer-link__icon">
+                <use href="./icons/symbol-defs.svg#icon-arrow"></use>
+              </svg>
+              <a href="#"> Контакти </a>
+            </li>
+          </ul>
+        </li>
 
-      <li class="footer__item">
-        <h3 class="footer__title">Наші проекти</h3>
-        <ul class="footer-link__list">
-          <li class="footer-link__item">
-            <svg class="footer-link__icon">
-              <use href="./icons/symbol-defs.svg#icon-arrow"></use>
-            </svg>
-            <a href="#">
-              Укрпошта
-            </a>
-          </li>
-          <li class="footer-link__item">
-            <svg class="footer-link__icon">
-              <use href="./icons/symbol-defs.svg#icon-arrow"></use>
-            </svg>
-            <a href="#">
-              Нафтогаз
-            </a>
-          </li>
-          <li class="footer-link__item">
-            <svg class="footer-link__icon">
-              <use href="./icons/symbol-defs.svg#icon-arrow"></use>
-            </svg>
-            <a href="#">
-              Львівська пивоварня
-            </a>
-          </li>
-          <li class="footer-link__item">
-            <svg class="footer-link__icon">
-              <use href="./icons/symbol-defs.svg#icon-arrow"></use>
-            </svg>
-            <a href="#">
-              ТЕЦ Калуша
-            </a>
-          </li>
-        </ul>
-      </li>
+        <li class="footer__item">
+          <h3 class="footer__title">Наші проекти</h3>
+          <ul class="footer-link__list">
+            <li class="footer-link__item">
+              <svg class="footer-link__icon">
+                <use href="./icons/symbol-defs.svg#icon-arrow"></use>
+              </svg>
+              <a href="#"> Укрпошта </a>
+            </li>
+            <li class="footer-link__item">
+              <svg class="footer-link__icon">
+                <use href="./icons/symbol-defs.svg#icon-arrow"></use>
+              </svg>
+              <a href="#"> Нафтогаз </a>
+            </li>
+            <li class="footer-link__item">
+              <svg class="footer-link__icon">
+                <use href="./icons/symbol-defs.svg#icon-arrow"></use>
+              </svg>
+              <a href="#"> Львівська пивоварня </a>
+            </li>
+            <li class="footer-link__item">
+              <svg class="footer-link__icon">
+                <use href="./icons/symbol-defs.svg#icon-arrow"></use>
+              </svg>
+              <a href="#"> ТЕЦ Калуша </a>
+            </li>
+          </ul>
+        </li>
 
-      <li class="footer__item">
-        <h3 class="footer__title">Соціальні мережі</h3>
-        <ul class="footer-link__list">
-          <li class="footer-link__item">
-            <svg class="footer-link__icon">
-              <use href="./icons/symbol-defs.svg#icon-arrow"></use>
-            </svg>
-            <a href="#">
-              LinkedIn
-            </a>
-          </li>
-          <li class="footer-link__item">
-            <svg class="footer-link__icon">
-              <use href="./icons/symbol-defs.svg#icon-arrow"></use>
-            </svg>
-            <a href="#">
-              Instagram
-            </a>
-          </li>
-          <li class="footer-link__item">
-            <svg class="footer-link__icon">
-              <use href="./icons/symbol-defs.svg#icon-arrow"></use>
-            </svg>
-            <a href="#">
-              Facebook
-            </a>
-          </li>
-          <li class="footer-link__item">
-            <svg class="footer-link__icon">
-              <use href="./icons/symbol-defs.svg#icon-arrow"></use>
-            </svg>
-            <a href="#">
-              Twitter
-            </a>
-          </li>
-        </ul>
-      </li>
-      
-    </ul>
-    <p class="footer__subtext">&#169; 2019. Всі права захищені</p>
-
-
-    
+        <li class="footer__item">
+          <h3 class="footer__title">Соціальні мережі</h3>
+          <ul class="footer-link__list">
+            <li class="footer-link__item">
+              <svg class="footer-link__icon">
+                <use href="./icons/symbol-defs.svg#icon-arrow"></use>
+              </svg>
+              <a href="#"> LinkedIn </a>
+            </li>
+            <li class="footer-link__item">
+              <svg class="footer-link__icon">
+                <use href="./icons/symbol-defs.svg#icon-arrow"></use>
+              </svg>
+              <a href="#"> Instagram </a>
+            </li>
+            <li class="footer-link__item">
+              <svg class="footer-link__icon">
+                <use href="./icons/symbol-defs.svg#icon-arrow"></use>
+              </svg>
+              <a href="#"> Facebook </a>
+            </li>
+            <li class="footer-link__item">
+              <svg class="footer-link__icon">
+                <use href="./icons/symbol-defs.svg#icon-arrow"></use>
+              </svg>
+              <a href="#"> Twitter </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <p class="footer__subtext">&#169; 2019. Всі права захищені</p>
     </footer>
   </body>
 </html>
