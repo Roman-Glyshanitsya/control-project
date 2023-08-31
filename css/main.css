@@ -45,4 +45,32 @@ ul {
   .container {
     max-width: 1140px;
   }
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+.header {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid rgba(161, 161, 161, 0.5);
+  background-color: black;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav__item {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.nav__item:not(:last-child) {
+  margin-right: 40px;
 }/*# sourceMappingURL=main.css.map */
