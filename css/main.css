@@ -140,11 +140,15 @@ body {
   text-align: center;
 }
 
+.about-us__text {
+  padding-top: 46px;
+}
+
 .about-us__list {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 55px;
+  margin-bottom: 50px;
 }
 
 .about-us__item:not(:last-child) {
@@ -153,7 +157,6 @@ body {
 
 .about-us__item {
   display: flex;
-  align-items: baseline;
 }
 
 .about-us__icon {
@@ -203,8 +206,46 @@ body {
   margin-right: auto;
 }
 
+.standarts {
+  background-color: #F6F6F8;
+  padding-top: 100px;
+  padding-bottom: 70px;
+}
+
+.standarts__thumb {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.standarts__title {
+  color: #323232;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 146.28%;
+  margin-bottom: 60px;
+  width: 424px;
+}
+
+.standarts__text {
+  color: #999;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 158.47%;
+  margin-bottom: 32px;
+  width: 489px;
+}
+
+.standarts__link {
+  color: #4985FF;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration-line: underline;
+}
+
 .main__btn {
-  padding: 15px 36px;
+  width: 200px;
+  height: 45px;
   border-radius: 30px;
   border: none;
   background-color: #4985FF;

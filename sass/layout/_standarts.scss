@@ -1,0 +1,51 @@
+.standarts {
+    background-color: #F6F6F8;
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+
+.standarts__thumb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.standarts__title {
+color: $titleColor;
+font-size: 36px;
+font-weight: 700;
+line-height: 146.28%; 
+margin-bottom: 60px;
+width: 424px;
+}
+
+.standarts__text {
+color: $textColor;
+font-size: 16px;
+font-weight: 400;
+line-height: 158.47%;
+margin-bottom: 32px;
+width: 489px;
+}
+
+
+.standarts__link {
+    color: $linkColor;
+font-size: 16px;
+font-weight: 500;
+text-decoration-line: underline;
+}
+
+
+
+.standarts__list {
+}
+
+.standarts__item {
+}
+
+.standarts__item__number {
+}
+
+.standarts__item__text {
+}

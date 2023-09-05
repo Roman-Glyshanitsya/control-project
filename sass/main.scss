@@ -1,3 +1,5 @@
+@import "./utils/var";
+
 @import "./base/reset";
 @import "./base/container";
 @import "./base/common";
@@ -5,5 +7,6 @@
 @import "./layout/header";
 @import "./layout/hero";
 @import "./layout/about-us";
+@import "./layout/standarts";
 
 @import "./components/main-button";
