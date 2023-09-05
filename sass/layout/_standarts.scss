@@ -11,41 +11,64 @@
 }
 
 .standarts__title {
-color: $titleColor;
-font-size: 36px;
-font-weight: 700;
-line-height: 146.28%; 
-margin-bottom: 60px;
-width: 424px;
+    color: $titleColor;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 146.28%;
+    margin-bottom: 60px;
+    width: 424px;
 }
 
 .standarts__text {
-color: $textColor;
-font-size: 16px;
-font-weight: 400;
-line-height: 158.47%;
-margin-bottom: 32px;
-width: 489px;
+    color: $textColor;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 158.47%;
+    margin-bottom: 32px;
+    width: 489px;
 }
 
 
 .standarts__link {
     color: $linkColor;
-font-size: 16px;
-font-weight: 500;
-text-decoration-line: underline;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration-line: underline;
 }
-
 
 
 .standarts__list {
+    border-top: 1px #E0E0E0 solid;
+    padding-top: 70px;
+    margin-top: 90px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.standarts__item {
+.standarts__icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.standarts__item:not(:last-child) {
+    margin-right: 100px;
 }
 
 .standarts__item__number {
+    font-size: 36px;
+    line-height: 146.28%;
+    color: #000000;
 }
 
 .standarts__item__text {
+    font-size: 16px;
+    color: #999;
+}
+
+.standarts__icon__number {
+    display: flex;
+    align-items: center;
 }
