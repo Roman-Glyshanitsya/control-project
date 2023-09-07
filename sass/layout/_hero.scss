@@ -1,6 +1,6 @@
 .hero {
     height: 800px;
-    background-image: url(/img/hero.jpg);
+    background-image: url("../img/hero.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -34,6 +34,6 @@
 (min-resolution: 192dpi) and (min-width: 1140px),
 (min-resolution: 2dppx) and (min-width: 1140px) {
     .hero {
-        background-image: url(/img/hero@2x.jpg);
+        background-image: url("../img/hero@2x.jpg");
     }
 }
