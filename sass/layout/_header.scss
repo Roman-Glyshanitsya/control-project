@@ -1,9 +1,12 @@
 .header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+
   padding-top: 40px;
   padding-bottom: 40px;
   border-bottom: 1px solid rgba(161, 161, 161, 0.5);
-
-  background-color: black;
 }
 
 .nav__list {
@@ -22,5 +25,4 @@
   margin-right: 40px;
 }
 
-.nav_link {
-}
+.nav_link {}

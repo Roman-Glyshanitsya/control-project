@@ -28,17 +28,21 @@
 }
 
 .footer-link__item {
+    display: flex;
+    align-items: center;
     color: #999;
     font-size: 14px;
     line-height: 158.47%;
 }
 
 .footer-contact__icon {
+    margin-right: 15px;
     width: 15px;
     height: 15px;
 }
 
 .footer-link__icon {
+    margin-right: 10px;
     width: 10px;
     height: 10px;
 }
