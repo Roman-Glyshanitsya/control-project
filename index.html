@@ -24,7 +24,7 @@
     <!-- header -->
     <header class="header">
       <div class="container">
-        <button class="burger-button" type="button" data>
+        <button class="burger-button" type="button" data-menu-button>
           <svg
             class="ham hamRotate ham1"
             viewBox="0 0 100 100"
@@ -42,21 +42,32 @@
             />
           </svg>
         </button>
-        <nav>
-          <ul class="nav__list">
-            <li class="nav__item">
-              <a href="index.html" class="nav_link">Головна</a>
-            </li>
-            <li class="nav__item">
-              <a href="#" class="nav__link">Наші проекти</a>
-            </li>
-            <li class="nav__item"><a href="#" class="nav__link">Послуги</a></li>
-            <li class="nav__item"><a href="#" class="nav__link">Новини</a></li>
-            <li class="nav__item">
-              <a href="#" class="nav__link">Контакти</a>
-            </li>
-          </ul>
-        </nav>
+        <div class="mobile-menu__nav" data-menu>
+          <button
+            class="mobile-menu__button-close"
+            type="button"
+            data-menu-close
+          ></button>
+          <nav>
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="index.html" class="nav_link">Головна</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">Наші проекти</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">Послуги</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">Новини</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">Контакти</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </header>
     <main>
@@ -454,5 +465,7 @@
         <p class="footer__subtext">&#169; 2019. Всі права захищені</p>
       </div>
     </footer> -->
+
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
