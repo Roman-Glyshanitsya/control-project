@@ -101,11 +101,36 @@
     .burger-button {
       display: none;
     }
+
+    .header {
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+
+    .nav__list {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .nav__item {
+      color: #fff;
+      font-size: 16px;
+      font-weight: 500;
+    }
+
+    .nav__item:not(:last-child) {
+      margin-right: 40px;
+    }
+
+    .mobile-menu__button-close {
+      display: none;
+    }
   }
 
-  .mobile-menu__button-close {
-    display: none;
-  }
+  
+
+  
 
   @media screen and (min-width: 1140px) {
     .header {
