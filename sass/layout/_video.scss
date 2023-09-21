@@ -17,10 +17,10 @@
 .video__title {
     color: #FFF;
     text-align: center;
-    font-size: 36px;
+    font-size: 26px;
     font-weight: 700;
     line-height: 146.28%;
-    margin-bottom: 30px;
+    margin-bottom: 22px;
 }
 
 .video__text {
@@ -29,11 +29,11 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 158.47%;
-    margin-bottom: 70px;
+    margin-bottom: 30px;
 }
 
 .video__button-container {
-    width: 970px;
+    width: 450px;
     height: 430px;
     background-image: url("../img/video.png");
     background-repeat: no-repeat;
@@ -46,8 +46,8 @@
 }
 
 .video__button {
-    width: 300px;
-    height: 100px;
+    width: 250px;
+    height: 80px;
     border-radius: 200px;
     border: 1px solid #FFF;
     color: #FFF;
@@ -65,7 +65,42 @@
 }
 
 .video__button svg {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     margin-right: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .video__title {
+        font-size: 36px;
+        margin-bottom: 30px;
+    }
+
+    .video__text {
+        margin-bottom: 50px;
+    }
+
+    .video__button-container {
+        width: 700px;
+    }
+
+    .video__button {
+        width: 300px;
+        height: 100px;
+    }
+
+    .video__button svg {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media screen and (min-width: 1140px) {
+    .video__text {
+        margin-bottom: 70px;
+    }
+
+    .video__button-container {
+        width: 970px;
+    }
 }
